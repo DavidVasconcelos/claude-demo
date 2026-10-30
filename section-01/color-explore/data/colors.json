@@ -1,0 +1,22 @@
+[
+  { "name": "Coral Reef", "hex": "#FF6F61" },
+  { "name": "Sunset Orange", "hex": "#FF9F43" },
+  { "name": "Golden Hour", "hex": "#F9C74F" },
+  { "name": "Lemon Zest", "hex": "#E9D758" },
+  { "name": "Fresh Lime", "hex": "#90BE6D" },
+  { "name": "Emerald", "hex": "#2BB673" },
+  { "name": "Sea Glass", "hex": "#43AA8B" },
+  { "name": "Teal Lagoon", "hex": "#14919B" },
+  { "name": "Aqua Mist", "hex": "#7FDBDA" },
+  { "name": "Sky Blue", "hex": "#4CC9F0" },
+  { "name": "Ocean Blue", "hex": "#277DA1" },
+  { "name": "Royal Blue", "hex": "#4361EE" },
+  { "name": "Midnight Navy", "hex": "#1D2B53" },
+  { "name": "Deep Indigo", "hex": "#4B3F9E" },
+  { "name": "Lavender", "hex": "#B79CED" },
+  { "name": "Amethyst", "hex": "#9B5DE5" },
+  { "name": "Orchid", "hex": "#D76EC8" },
+  { "name": "Hot Pink", "hex": "#F72585" },
+  { "name": "Rosewood", "hex": "#B5495B" },
+  { "name": "Warm Sand", "hex": "#E6D5B8" }
+]

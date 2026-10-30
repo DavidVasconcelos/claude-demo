@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Color Palette Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+
+  <header class="hero">
+    <h1>Color Palette Explorer</h1>
+    <p>Twenty handpicked colors. Click one to set the mood and copy its HEX.</p>
+  </header>
+
+  <main class="container">
+    <div class="panel search-panel">
+      <input id="search" type="search" placeholder="Search by name or HEX…" aria-label="Search colors" autocomplete="off" />
+    </div>
+
+    <section class="panel recent" aria-labelledby="recent-title">
+      <h2 id="recent-title">Recently Viewed</h2>
+      <div id="recent" class="swatches"><span class="muted">Click a color to see it here.</span></div>
+    </section>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>No colors match your search.</p>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

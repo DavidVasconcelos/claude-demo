@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Future Me — Letters to Tomorrow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <header class="topbar">
+    <div class="brand"><span class="logo">⏳</span> Future&nbsp;Me</div>
+    <button id="themeToggle" class="icon-btn" aria-label="Toggle dark/light mode" title="Toggle theme">🌙</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Write to the person you'll become.</h1>
+      <figure class="quote" id="quote" aria-live="polite">
+        <blockquote id="quoteText"></blockquote>
+        <figcaption id="quoteAuthor"></figcaption>
+      </figure>
+      <button id="newQuote" class="link-btn" type="button">↻ Another quote</button>
+    </section>
+
+    <section class="card" aria-labelledby="formTitle">
+      <h2 id="formTitle">New letter</h2>
+      <form id="capsuleForm" novalidate>
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" type="text" maxlength="40" placeholder="e.g. Alex" required />
+          <small class="error" data-for="name"></small>
+        </div>
+        <div class="field">
+          <label for="message">Message to your future self</label>
+          <textarea id="message" rows="5" maxlength="2000" placeholder="Dear future me…" required></textarea>
+          <small class="counter"><span id="charCount">0</span>/2000</small>
+          <small class="error" data-for="message"></small>
+        </div>
+        <div class="field">
+          <label for="unlock">Reveal on</label>
+          <input id="unlock" type="datetime-local" required />
+          <div class="presets">
+            <button type="button" data-days="7">+1 week</button>
+            <button type="button" data-days="30">+1 month</button>
+            <button type="button" data-days="365">+1 year</button>
+          </div>
+          <small class="error" data-for="unlock"></small>
+        </div>
+        <button type="submit" class="primary">Seal &amp; send to the future ✉️</button>
+      </form>
+    </section>
+
+    <section aria-labelledby="dashTitle">
+      <div class="dash-head">
+        <h2 id="dashTitle">Your time capsules</h2>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div id="list" class="list"></div>
+      <p id="empty" class="empty">No letters yet. Seal your first one above ✨</p>
+    </section>
+  </main>
+
+  <div id="confetti" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
