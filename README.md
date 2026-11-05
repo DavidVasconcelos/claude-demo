@@ -32,14 +32,22 @@ The course goes from first install to advanced agentic workflows. It is taught i
 - Build small demos that exercise each feature (hooks, MCP servers, skills, sub-agents)
 - Track my progress through the course
 
-## Suggested layout (grows as I go)
+## Repository layout
 
 ```text
 claude-demo/
 ├── README.md
-├── notes/      # per-topic notes
-└── demos/      # hands-on experiments
+├── .gitignore
+├── section-01/
+├── section-02/
+├── section-03/
+├── section-04/
+├── section-05/
+├── section-06/
+└── section-07/
 ```
+
+Each `section-NN/` folder holds the demo projects for that part of the course.
 
 ## Links
 
