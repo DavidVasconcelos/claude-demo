@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Tooltip } from "./Tooltip";
 
 const Footer = () => {
   return (
@@ -141,18 +142,42 @@ const Footer = () => {
 
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-wrap justify-center md:justify-start gap-6 text-sm text-gray-400 mb-6 md:mb-0">
-              <a className="group relative hover:text-white transition-colors duration-300">
-                <span className="relative z-10">Privacy Policy</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-              </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
-                <span className="relative z-10">Terms of Service</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-              </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
-                <span className="relative z-10">Cookie Policy</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-              </a>
+              <Tooltip text="We only collect the personal details you provide, such as your profile and applications, and use them to run JobPortal. We never sell your data.">
+                {(a11y) => (
+                  <a
+                    {...a11y}
+                    tabIndex={0}
+                    className="group relative cursor-pointer hover:text-white focus:text-white outline-none transition-colors duration-300"
+                  >
+                    <span className="relative z-10">Privacy Policy</span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                  </a>
+                )}
+              </Tooltip>
+              <Tooltip text="By using JobPortal you agree to use it lawfully and to provide accurate information in your profile, job posts and applications.">
+                {(a11y) => (
+                  <a
+                    {...a11y}
+                    tabIndex={0}
+                    className="group relative cursor-pointer hover:text-white focus:text-white outline-none transition-colors duration-300"
+                  >
+                    <span className="relative z-10">Terms of Service</span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                  </a>
+                )}
+              </Tooltip>
+              <Tooltip text="We store your sign-in session and theme preference in your browser so you stay logged in and the site looks the way you left it. No advertising or third-party tracking.">
+                {(a11y) => (
+                  <a
+                    {...a11y}
+                    tabIndex={0}
+                    className="group relative cursor-pointer hover:text-white focus:text-white outline-none transition-colors duration-300"
+                  >
+                    <span className="relative z-10">Cookie Policy</span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                  </a>
+                )}
+              </Tooltip>
               <Link
                 to="/contact"
                 className="group relative hover:text-white transition-colors duration-300"
