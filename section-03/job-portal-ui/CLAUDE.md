@@ -56,6 +56,7 @@ style/mobile-job-card-spacing          # Visual/style changes
 - Branch off `main` for all new work
 - Keep branches short-lived; open a PR when ready
 - Delete branches after merging
+- Rename the session with the branch name
 
 ### Commit Messages
 
