@@ -44,6 +44,8 @@ job-portal-ui/
 
 See the root `CLAUDE.md` (branching, commit messages, pull requests).
 
+- After renaming the branch, rename the session with the branch name
+
 ## Coding Standards
 
 ### General
