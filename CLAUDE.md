@@ -21,6 +21,9 @@ style/mobile-job-card-spacing          # Visual/style changes
 - Keep branches short-lived; open a PR when ready
 - Delete branches after merging
 - Rename the session with the branch name
+- When creating a worktree, name it after the branch using the patterns above
+  (e.g. `fix/employer-route-redirect-loop`), with no `worktree-` prefix. If the
+  tool adds a prefix, run `git branch -m` to rename the branch to match.
 
 ### Commit Messages
 
