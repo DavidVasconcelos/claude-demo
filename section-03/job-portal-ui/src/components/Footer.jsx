@@ -54,7 +54,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://github.com/jobportal"
+                href="https://github.com/DavidVasconcelos/claude-demo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-gray-800/50 hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-700 rounded-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
