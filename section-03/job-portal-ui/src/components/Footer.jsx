@@ -178,7 +178,7 @@ const Footer = () => {
                   </a>
                 )}
               </Tooltip>
-              <Tooltip text="Questions about our Terms of Service or your account? Reach out to the JobPortal team and we'll get back to you.">
+              <Tooltip text="Have a question or need help? Reach out to the JobPortal team and we'll get back to you.">
                 {(a11y) => (
                   <Link
                     {...a11y}
