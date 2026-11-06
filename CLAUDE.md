@@ -20,10 +20,12 @@ style/mobile-job-card-spacing          # Visual/style changes
 - Branch off `main` for all new work
 - Keep branches short-lived; open a PR when ready
 - Delete branches after merging
+- After creating a worktree, immediately run `git branch --show-current`.
+  If the branch starts with `worktree-`, rename it before doing any other work:
+  `git branch -m "$(git branch --show-current)" "<type>/<description>"`
+  e.g. `worktree-fix+contact-us-hover-tooltip` → `fix/employer-route-redirect-loop`
+  (strip the `worktree-` prefix and replace `+` with `/`).
 - Rename the session with the branch name
-- When creating a worktree, name it after the branch using the patterns above
-  (e.g. `fix/employer-route-redirect-loop`), with no `worktree-` prefix. If the
-  tool adds a prefix, run `git branch -m` to rename the branch to match.
 
 ### Commit Messages
 
