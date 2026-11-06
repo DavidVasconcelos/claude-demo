@@ -25,7 +25,6 @@ style/mobile-job-card-spacing          # Visual/style changes
   `git branch -m "$(git branch --show-current)" "<type>/<description>"`
   e.g. `worktree-fix+contact-us-hover-tooltip` → `fix/employer-route-redirect-loop`
   (strip the `worktree-` prefix and replace `+` with `/`).
-- Rename the session with the branch name
 
 ### Commit Messages
 
