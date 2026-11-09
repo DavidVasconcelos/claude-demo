@@ -811,7 +811,7 @@ export const generateCompanies = (jobsData = []) => {
         linkedin: `https://linkedin.com/company/${company.name
           .toLowerCase()
           .replace(/\s+/g, "")}`,
-        twitter: `https://twitter.com/${company.name
+        twitter: `https://x.com/${company.name
           .toLowerCase()
           .replace(/\s+/g, "")}`,
         facebook: `https://facebook.com/${company.name
