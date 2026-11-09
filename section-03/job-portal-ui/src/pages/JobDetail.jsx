@@ -444,7 +444,7 @@ const JobDetail = () => {
                   LinkedIn
                 </button>
                 <button className="flex-1 p-3 bg-gray-800 text-white rounded-xl hover:bg-gray-900 transition-colors">
-                  Twitter
+                  X
                 </button>
                 <button className="p-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-xl hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
