@@ -23,6 +23,7 @@ The course goes from first install to advanced agentic workflows. It is taught i
 | 9 | **Sub-agents** | Delegating focused tasks to specialised agents |
 | 10 | **Agent Teams & parallel sessions** | Running several agents or sessions at once |
 | 11 | **Git worktrees** | Isolating parallel work in separate working copies |
+| 12 | **Build the wall: sandboxing Claude Code with Docker Sandboxes** | Running Claude Code inside an isolated Docker sandbox so it can work autonomously without direct access to the host machine |
 
 > The outline above is based on the public course description and third-party reviews. Section names and order may differ slightly from the live curriculum on Udemy.
 
@@ -44,7 +45,8 @@ claude-demo/
 ├── section-04/
 ├── section-05/
 ├── section-06/
-└── section-07/
+├── section-07/
+└── section-08/
 ```
 
 Each `section-NN/` folder holds the demo projects for that part of the course.
