@@ -3,7 +3,7 @@ name: get-to-the-choppa
 description: Commit current changes, push a branch, open a pull request, and merge it automatically.
 argument-hint: "[optional commit/PR hint]"
 user-invocable: true
-disable-model-invocation: true
+disable-model-invocation: false
 allowed-tools: Bash(git *), Bash(gh *)
 ---
 
