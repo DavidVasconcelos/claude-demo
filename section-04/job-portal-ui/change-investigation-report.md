@@ -2,7 +2,7 @@
 
 **Target**: `src/components/Footer.jsx:170-182`  
 **Investigation Date**: 2026-11-12  
-**Repository**: git@github.com:DavidVasconcelos/claude-demo.git  
+**Repository**: `git@github.com:DavidVasconcelos/claude-demo.git`  
 **Branch**: main
 
 > **Interpretation**: Lines 170-182 of `section-04/job-portal-ui/src/components/Footer.jsx` cover the **Cookie Policy** tooltip block (lines 170-181) and the opening line of the Contact Us tooltip (line 182). `section-04` is a copy of `section-03`, so blame there only points at the copy commit. The real history was traced through `section-03/job-portal-ui/src/components/Footer.jsx`.
@@ -24,8 +24,8 @@
 
 ## 👥 Author Breakdown
 
-| #   | Author           | Email              | Commits | Lines Owned (file) | First Contribution | Last Contribution |
-| --- | ---------------- | ------------------ | ------- | ------------------ | ------------------ | ----------------- |
+| #   | Author            | Email             | Commits | Lines Owned (file) | First Contribution | Last Contribution |
+| --- | ----------------- | ----------------- | ------- | ------------------ | ------------------ | ----------------- |
 | 1   | David Vasconcelos | dsv10@hotmail.com | 6       | 210 (100%)         | 2026-11-05         | 2026-11-10        |
 
 Co-authors on commit trailers: Claude Sonnet 5.5, claude[bot].
@@ -76,10 +76,10 @@ Co-authors on commit trailers: Claude Sonnet 5.5, claude[bot].
 
 ## 🔬 Line-by-Line Blame (Current State)
 
-| Line    | Code (truncated)                                  | Author            | Date       | Commit Message                                  |
-| ------- | ------------------------------------------------- | ----------------- | ---------- | ----------------------------------------------- |
+| Line    | Code (truncated)                                                 | Author            | Date       | Commit Message                                      |
+| ------- | ---------------------------------------------------------------- | ----------------- | ---------- | --------------------------------------------------- |
 | 170-181 | `<Tooltip text="We store your sign-in session…">` … `</Tooltip>` | David Vasconcelos | 2026-11-10 | chore: add section-04 as a copy of section-03 (#19) |
-| 182     | `<Tooltip text="Have a question or need help?…">` | David Vasconcelos | 2026-11-10 | chore: add section-04 as a copy of section-03 (#19) |
+| 182     | `<Tooltip text="Have a question or need help?…">`                | David Vasconcelos | 2026-11-10 | chore: add section-04 as a copy of section-03 (#19) |
 
 Blame in section-03 attributes 170-181 to `db2bd69` (2026-11-05) and 182 to `ec8e76e` (2026-11-06).
 
@@ -87,13 +87,13 @@ Blame in section-03 attributes 170-181 to `db2bd69` (2026-11-05) and 182 to `ec8
 
 ## 🎫 Linked Tickets & References
 
-| Ticket ID | Commit  | Author            | Date       | Commit Subject                                |
-| --------- | ------- | ----------------- | ---------- | --------------------------------------------- |
-| #2        | db2bd69 | David Vasconcelos | 2026-11-05 | fix: show tooltips on footer policy links (#3) |
-| #3        | db2bd69 | David Vasconcelos | 2026-11-05 | (PR number)                                   |
+| Ticket ID | Commit  | Author            | Date       | Commit Subject                                   |
+| --------- | ------- | ----------------- | ---------- | ------------------------------------------------ |
+| #2        | db2bd69 | David Vasconcelos | 2026-11-05 | fix: show tooltips on footer policy links (#3)   |
+| #3        | db2bd69 | David Vasconcelos | 2026-11-05 | (PR number)                                      |
 | #4        | ec8e76e | David Vasconcelos | 2026-11-06 | fix: show tooltip on footer contact us link (#9) |
-| #9        | ec8e76e | David Vasconcelos | 2026-11-06 | (PR number)                                   |
-| #19       | 08f77a9 | David Vasconcelos | 2026-11-10 | chore: add section-04 as a copy of section-03 |
+| #9        | ec8e76e | David Vasconcelos | 2026-11-06 | (PR number)                                      |
+| #19       | 08f77a9 | David Vasconcelos | 2026-11-10 | chore: add section-04 as a copy of section-03    |
 
 ---
 
