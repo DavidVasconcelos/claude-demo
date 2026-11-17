@@ -177,7 +177,7 @@ export const AuthProvider = ({ children }) => {
       const registeredUsers = JSON.parse(localStorage.getItem('registeredUsers') || '[]');
       const searchPool = [...allDummyUsers, ...registeredUsers];
 
-      const foundUser = searchPool.find(u => u.email === email && u.password !== password);
+      const foundUser = searchPool.find(u => u.email === email && u.password === password);
 
       if (!foundUser) {
         setIsLoading(false);
