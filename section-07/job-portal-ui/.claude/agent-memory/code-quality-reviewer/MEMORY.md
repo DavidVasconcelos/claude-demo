@@ -1,0 +1,1 @@
+- [JobContext mutations review 2026-11-17](review-jobcontext-mutations-2026-11-17.md) — updateJob skips globalPostedJobs, no ownership checks, PostJob bypasses context

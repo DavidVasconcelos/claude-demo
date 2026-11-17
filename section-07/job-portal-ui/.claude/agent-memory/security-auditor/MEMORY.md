@@ -1,0 +1,1 @@
+- [Auth/register security audit 2026-11-17](security-audit-auth-register-2026-11-17.md) — MEDIUM overall: email normalization, unguarded registeredUsers, session restore trust
