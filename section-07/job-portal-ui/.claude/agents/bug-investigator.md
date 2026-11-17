@@ -135,9 +135,15 @@ Follow this priority order when tracing bugs:
 
 ### Phase 6: Memory
 
-After the fix is verified, write a memory file for any non-obvious finding
-(for example "login users live in DUMMY_USERS, not mockData.js") and add a
-pointer to MEMORY.md. Skip this phase if nothing non-obvious was learned.
+Whenever you identify a bug's root cause, write your entire report (root cause
+with file:line references, evidence, recommended fix, and repro or verification
+steps) to `bug-report-<slug>.md` in your agent memory directory and add a
+pointer to MEMORY.md. Do this even when you were told not to edit source code
+and even if the fix has not been applied or verified: writing the report file
+is always allowed. Never summarize or omit sections.
+
+Also write a separate memory file for any non-obvious finding (for example
+"login users live in DUMMY_USERS, not mockData.js").
 
 ## Output Format
 
