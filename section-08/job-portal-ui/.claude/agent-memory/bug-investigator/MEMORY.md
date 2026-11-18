@@ -1,0 +1,3 @@
+- [Login bug report](bug-report-login-password-comparison.md) — inverted password check (!==) in AuthContext login() line 180
+- [Auth users location](auth-users-live-in-authcontext.md) — DUMMY_USERS live in AuthContext.jsx, not mockData.js
+- [Employer application flow bug report](bug-report-employer-application-flow.md) — 13 findings: no employer authz, status/data-shape mismatches, dead JobContext code
