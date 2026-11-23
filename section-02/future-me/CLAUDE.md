@@ -22,3 +22,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `tick()` runs every second via `setInterval`. It calls `updateCard()` for each card, which switches the card between locked and open using `card.dataset.state`. It updates the countdown and progress bar in place.
 - The `opened` set and the `state` check separate cards that unlock live, which get the reveal animation and confetti, from cards that were already open on page load, which do not.
 - DOM is built with the `el(tag, cls, text)` helper and `textContent`. Keep using it, because user text (`name`, `message`) must never go through `innerHTML`.
+
+## Requirement to preserve
+
+Saved-message cards must **never display any date or year**, neither the unlock date nor the creation date. Only relative information (countdown units, progress percentage, Locked/Unlocked badge) is allowed. The date picker appears only in the input form.
+
+## Important Notice
+
+Always modify files with the Edit/Write tools, never via Bash or Python scripts (sed -i, heredocs, redirects), so rewind checkpoints capture them.
